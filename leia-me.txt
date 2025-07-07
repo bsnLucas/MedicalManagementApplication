@@ -1,0 +1,29 @@
+================================================
+CONFIGURE A BASE DE DADOS
+
+1. Crie uma base de dados com o nome de gestao_medica no MySQL.
+2. Na raiz do projeto Java, há uma pasta com o nome de "database", nela há um arquivo chamado "gestao_medica.sql". Este arquivo deve ser importado para a base de dados "gestao_medica", criada no passo 1.
+
+=================================================
+CONFIGURANDO O SISTEMA
+
+1. O sistema deve ser alimentado apartir do botão do "Menu" na barra de acesso. 
+2. Ao clicar no item "Menu", pode se ver os items "Paciente", "Médico", "Exame" e "Consulta".
+3. Primeiro devem ser cadastradas as especialidades dos Médicos.
+	3.1 Para isso, vá em Menu>Médico>Cadastrar Especialidades.
+	3.2 Preencha os dados da Especialidade e clique em "Aplicar".
+4. Primeiro devem ser cadastrados os Médicos.
+	4.1 Para isso, vá em Menu>Médico>Cadastrar Médico
+	4.2 Preencha os dados do Médico e clique em 	"Aplicar"
+	4.3 Para conferir, pode clicar em "Médicos" na aba 	principal do programa.
+5. Depois cadastre os Exames.
+	5.1 Para isso, vá em Menu>Exame>Cadastrar Exame
+	5.2 Preencha os dados do exame com suas 	orientações e clique em "Aplicar";
+6. Cadastre os Pacientes
+	6.1 Para isso, vá em Menu>Paciente>Cadastrar 	Paciente
+	6.2 Preencha os dados do paciente e clique em 	"Aplicar"
+	6.3 Para conferir, pode clicar em "Pacientes" na 	aba principal do programa.
+7. Agora você pode agendar os exames e as consultas dos respectivos pacientes.
+	7.1 Para fazer isso, você pode ir em Menu>Exame>	Agendar Exame ou se quiser agendar a consulta, 	Menu>Consulta>Agendar Consulta.
+	7.2 Para verificar as consultas, você pode clicar em "Exames" ou "Consultas" no Menu Principal.
+8. Você também pode gerar relatórios dos exames, médicos  e históricos médicos dos pacientes em Relatório>##.
